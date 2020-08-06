@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "813058814761",
+    "firebase_url": "https://moneymanager-fbe80.firebaseio.com",
+    "project_id": "moneymanager-fbe80",
+    "storage_bucket": "moneymanager-fbe80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813058814761:android:ae085ae1d2f6270734bd38",
+        "android_client_info": {
+          "package_name": "com.example.dickhead_pussyface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813058814761-4o3nedp4puo6fk9utt80oemk7samcp0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEWZqxBECHFms_wTKyHRREsCkEXCF7eiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813058814761-4o3nedp4puo6fk9utt80oemk7samcp0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
