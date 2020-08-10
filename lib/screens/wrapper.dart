@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:dickheadpussyface/anim/StartLoadingPage.dart';
-import 'package:dickheadpussyface/models/user_model.dart';
+import 'package:money_manager/anim/StartLoadingPage.dart';
+import 'package:money_manager/models/user_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

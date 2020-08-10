@@ -1,8 +1,10 @@
 import 'dart:async';
 
-import 'package:dickheadpussyface/models/choice_model.dart';
-import 'package:dickheadpussyface/screens/paybook/PayBookScreen.dart';
-import 'package:dickheadpussyface/screens/trade/TradeScreen.dart';
+import 'package:money_manager/models/choice_model.dart';
+import 'package:money_manager/screens/account/account_screen.dart';
+import 'package:money_manager/screens/paybook/PayBookScreen.dart';
+import 'package:money_manager/screens/report/report_screen.dart';
+import 'package:money_manager/screens/trade/TradeScreen.dart';
 import 'package:flutter/material.dart';
 
 class HomePageScreen extends StatefulWidget {
@@ -24,14 +26,8 @@ class _HomePageScreenState extends State<HomePageScreen>
       'Index 2: School',
       style: optionStyle,
     ),
-    Text(
-      'Index 3: Prison',
-      style: optionStyle,
-    ),
-    Text(
-      'Index 4: Victory',
-      style: optionStyle,
-    ),
+    ReportScreen(),
+    AccountScreen(),
   ];
 
   @override

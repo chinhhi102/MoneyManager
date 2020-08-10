@@ -1,10 +1,10 @@
-import 'package:dickheadpussyface/models/user_model.dart';
-import 'package:dickheadpussyface/screens/authenticate/register_screen.dart';
+import 'package:money_manager/models/user_model.dart';
+import 'package:money_manager/screens/authenticate/register_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:dickheadpussyface/models/constants.dart';
+import 'package:money_manager/models/constants.dart';
 import 'package:connectivity/connectivity.dart';
-import 'package:dickheadpussyface/service/auth_service.dart';
+import 'package:money_manager/service/auth_service.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 
 class SignInScreen extends StatefulWidget {

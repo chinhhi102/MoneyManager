@@ -1,5 +1,5 @@
-import 'package:dickheadpussyface/screens/wrapper.dart';
-import 'package:dickheadpussyface/service/auth_service.dart';
+import 'package:money_manager/screens/wrapper.dart';
+import 'package:money_manager/service/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';

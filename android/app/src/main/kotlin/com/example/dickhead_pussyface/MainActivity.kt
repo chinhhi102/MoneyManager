@@ -1,4 +1,4 @@
-package com.example.dickhead_pussyface
+package com.example.money_manager
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

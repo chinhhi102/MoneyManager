@@ -1,4 +1,4 @@
-import 'package:dickheadpussyface/models/tabController_model.dart';
+import 'package:money_manager/models/tabController_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

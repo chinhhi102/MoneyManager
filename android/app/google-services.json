@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:813058814761:android:ae085ae1d2f6270734bd38",
+        "mobilesdk_app_id": "1:813058814761:android:5d18801e53441c3834bd38",
         "android_client_info": {
-          "package_name": "com.example.dickhead_pussyface"
+          "package_name": "com.example.money_manager"
         }
       },
       "oauth_client": [

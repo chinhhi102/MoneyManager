@@ -1,4 +1,4 @@
-# dickheadpussyface
+# Money Manager
 
 A new Flutter application.
 

@@ -1,4 +1,4 @@
-import 'package:dickheadpussyface/screens/authenticate/signIn_screen.dart';
+import 'package:money_manager/screens/authenticate/signIn_screen.dart';
 import 'package:flutter/material.dart';
 
 class AuthenticateScreen extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:connectivity/connectivity.dart';
-import 'package:dickheadpussyface/models/constants.dart';
-import 'package:dickheadpussyface/models/user_model.dart';
-import 'package:dickheadpussyface/service/auth_service.dart';
+import 'package:money_manager/models/constants.dart';
+import 'package:money_manager/models/user_model.dart';
+import 'package:money_manager/service/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 

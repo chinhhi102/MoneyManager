@@ -1,4 +1,4 @@
-import 'package:dickheadpussyface/models/user_model.dart';
+import 'package:money_manager/models/user_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
