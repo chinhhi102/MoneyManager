@@ -10,7 +10,7 @@ class AccountScreen extends StatefulWidget {
 
 class _AccountScreenState extends State<AccountScreen> {
   TextStyle _styleAccountCtrl = TextStyle(
-    fontSize: 25.0,
+    fontSize: 20.0,
     fontFamily: "Sans",
     fontWeight: FontWeight.normal,
     letterSpacing: 0.2,

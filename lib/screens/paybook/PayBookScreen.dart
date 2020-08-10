@@ -1,4 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:money_manager/models/payBook_model.dart';
+import 'package:money_manager/screens/paybook/GetDetail_Widget.dart';
+import 'package:money_manager/screens/paybook/OutDetail_Widget.dart';
 
 class PayBookScreen extends StatefulWidget {
   @override
@@ -7,6 +11,15 @@ class PayBookScreen extends StatefulWidget {
 
 class _PayBookScreenState extends State<PayBookScreen>
     with SingleTickerProviderStateMixin {
+  List<PayBook> _list1 = <PayBook>[
+    PayBook(name: "Số 1", numOfTrade: 2, last: 30000, total: 50000),
+    PayBook(name: "Số 2", numOfTrade: 1, last: 50000, total: 70000),
+  ];
+  List<PayBook> _list2 = <PayBook>[
+    PayBook(name: "Số 1", numOfTrade: 2, last: 50000, total: 50000),
+    PayBook(name: "Số 2", numOfTrade: 1, last: 70000, total: 70000),
+  ];
+
   static const _tabItem = <String>[
     "Cần trả",
     "Cần thu",
@@ -79,8 +92,8 @@ class _PayBookScreenState extends State<PayBookScreen>
       body: TabBarView(
         controller: _controller,
         children: <Widget>[
-          Text("Tab 1"),
-          Text("Tab 2"),
+          GetDetailWidget(),
+          OutDetailWidget(),
         ],
       ),
     );
