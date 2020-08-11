@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:money_manager/models/payBook_model.dart';
-import 'package:money_manager/screens/paybook/GetDetail_Widget.dart';
-import 'package:money_manager/screens/paybook/OutDetail_Widget.dart';
+import 'package:money_manager/screens/paybook/get_detail_widget.dart';
+import 'package:money_manager/screens/paybook/out_detail_widget.dart';
 
 class PayBookScreen extends StatefulWidget {
   @override

@@ -2,9 +2,10 @@ import 'dart:async';
 
 import 'package:money_manager/models/choice_model.dart';
 import 'package:money_manager/screens/account/account_screen.dart';
-import 'package:money_manager/screens/paybook/PayBookScreen.dart';
+import 'package:money_manager/screens/paybook/pay_book_screen.dart';
 import 'package:money_manager/screens/report/report_screen.dart';
-import 'package:money_manager/screens/trade/TradeScreen.dart';
+import 'package:money_manager/screens/trade/new_trade_screen.dart';
+import 'package:money_manager/screens/trade/trade_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomePageScreen extends StatefulWidget {
@@ -23,7 +24,7 @@ class _HomePageScreenState extends State<HomePageScreen>
     TradeScreen(),
     PayBookScreen(),
     Text(
-      'Index 2: School',
+      'Index 2: Add Trade',
       style: optionStyle,
     ),
     ReportScreen(),
@@ -41,6 +42,7 @@ class _HomePageScreenState extends State<HomePageScreen>
 
   void _onItemTapped(int index) {
     setState(() {
+      if(index == 2) return;
       _selectedIndex = index;
     });
   }
@@ -65,19 +67,17 @@ class _HomePageScreenState extends State<HomePageScreen>
                       child: Material(
                         color: Colors.green, // button color
                         child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => NewTradeScreen(),
+                              ),
+                            );
+                          },
                           splashColor: Colors.red, // inkwell color
                           child: SizedBox(
                               width: 50, height: 50, child: Icon(Icons.add)),
-                        ),
-                      ),
-                    ),
-                    activeIcon: ClipOval(
-                      child: Material(
-                        color: Colors.blue, // button color
-                        child: InkWell(
-                          splashColor: Colors.red, // inkwell color
-                          child: SizedBox(
-                              width: 50, height: 50, child: Icon(Icons.queue)),
                         ),
                       ),
                     ),
