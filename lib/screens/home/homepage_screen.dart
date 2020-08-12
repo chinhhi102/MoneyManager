@@ -15,7 +15,6 @@ class HomePageScreen extends StatefulWidget {
 
 class _HomePageScreenState extends State<HomePageScreen>
     with SingleTickerProviderStateMixin {
-  TabController _controller;
   int _selectedIndex = 0;
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
@@ -34,8 +33,6 @@ class _HomePageScreenState extends State<HomePageScreen>
   @override
   void initState() {
     super.initState();
-    _controller =
-        new TabController(initialIndex: 0, vsync: this, length: choices.length);
 //    _CateQuery = _database.reference().child("Categories").orderByChild("name");
 //    _onCateAddedSubscription = _CateQuery.onChildAdded.listen(onEntryAdded);
   }

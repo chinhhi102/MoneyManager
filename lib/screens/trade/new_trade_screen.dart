@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:intl/intl.dart';
 import 'package:money_manager/models/user_model.dart';
+import 'package:money_manager/screens/trade/select_category_screen.dart';
 
 class NewTradeScreen extends StatefulWidget {
   @override
@@ -277,7 +278,7 @@ class _NewTradeScreenState extends State<NewTradeScreen> {
     );
   }
 
-  Widget _builCheckBoxConf(){
+  Widget _builCheckBoxConf() {
     return CheckboxListTile(
       value: checkboxValue,
       onChanged: (val) {
@@ -362,7 +363,11 @@ class _NewTradeScreenState extends State<NewTradeScreen> {
                       ),
                       InkWell(
                         onTap: () {
-                          print("Chọn nhóm");
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => SelectCategoryScreen()),
+                          );
                         },
                         child: _buildChoiceCategoryField(),
                       ),
